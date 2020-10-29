@@ -19,5 +19,7 @@ namespace Serialization1
         public double SSNumber { get; set; }
         [XmlAttribute("Todays Date")]
         public DateTime EntryDate { get; set; }
+        [XmlIgnore]
+        public string JobRole { get; set; }
     }
 }
