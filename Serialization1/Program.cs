@@ -16,7 +16,7 @@ namespace Serialization1
             Employee emp = new Employee();
 
             emp.ID = 123;
-            emp.Name = "Ninja Nerd In Training";
+            emp.Name = "Joseph Catanzaro";
             emp.SSNumber = 153638465;
             emp.EntryDate = DateTime.Now;
 
@@ -24,7 +24,7 @@ namespace Serialization1
 
 
             string FilePath = "C:/Temp/";
-            string FileName = "Ninja.Xml";
+            string FileName = "Bushido.Xml";
 
             TextWriter writer = new StreamWriter(FilePath + FileName);
 
